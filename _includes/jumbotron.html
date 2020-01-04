@@ -67,18 +67,18 @@ function initRenderer() {
 }
 
 function initCube() {
-    var loader = new THREE.CubeTextureLoader();
-    loader.setPath('/assets/img/');
-    var texture = loader.load([
+    var loader = new THREE.CubeTextureLoader().setPath('/assets/img/');
+    loader.load([
         'icon.png','icon.png','icon.png',
         'icon.png','icon.png','icon.png'
-    ]);
+    ], function(texture) {
 
-    var material = new THREE.MeshBasicMaterial({ color: 0x000000, envMap: texture });
-    var geometry = new THREE.CubeGeometry(3, 3, 3);
+        var material = new THREE.MeshBasicMaterial({ color: 0x000000, envMap: texture });
+        var geometry = new THREE.CubeGeometry(3, 3, 3);
 
-    cube = new THREE.Mesh(geometry, material);
-    scene.add(cube);
+        cube = new THREE.Mesh(geometry, material);
+        scene.add(cube);
+    })
 }
 
 var SPEED = 0.01;
