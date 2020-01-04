@@ -31,7 +31,7 @@ function initRenderer() {
     renderer.setSize(300, 300);
 }
 
-function initCube() {
+function initCube(callback) {
     var loader = new THREE.CubeTextureLoader().setPath('/assets/img/');
     loader.load([
         'icon.png','icon.png','icon.png',
@@ -43,6 +43,7 @@ function initCube() {
 
         cube = new THREE.Mesh(geometry, material);
         scene.add(cube);
+        callback();
     })
 }
 
@@ -56,8 +57,9 @@ function rotateCube() {
 
 function render() {
     requestAnimationFrame(render);
-    rotateCube();
-    renderer.render(scene, camera);
+    rotateCube(function() {
+        renderer.render(scene, camera);
+    });
 }
 
 init();
