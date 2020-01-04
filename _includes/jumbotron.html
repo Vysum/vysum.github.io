@@ -46,16 +46,14 @@ function initCube(callback) {
     var t4 = loader.load('/assets/img/icon.png');
     var t5 = loader.load('/assets/img/icon.png');
 
-    var textures = [
+    var material = new THREE.MeshFaceMaterial([
         new THREE.MeshBasicMaterial({ map: t0 }),
         new THREE.MeshBasicMaterial({ map: t1 }),
         new THREE.MeshBasicMaterial({ map: t2 }),
         new THREE.MeshBasicMaterial({ map: t3 }),
         new THREE.MeshBasicMaterial({ map: t4 }),
         new THREE.MeshBasicMaterial({ map: t5 }),
-    ]
-
-    var material = new THREE.MeshFaceMaterial(textures);
+    ]);
     var geometry = new THREE.CubeGeometry(4, 4, 4);
     cube = new THREE.Mesh(geometry, material);
     scene.add(cube);
