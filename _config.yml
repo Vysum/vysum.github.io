@@ -5,6 +5,7 @@ description: Virtual Experiences, Virtual Designs
 color: 4a9b2e
 favicon: favicon.png
 
+BrandFont: https://fonts.googleapis.com/css?family=Orbitron&display=swap
 jQuery: https://code.jquery.com/jquery-3.4.1.min.js
 BootstrapCSS: https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css
 BootstrapJS: https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js
