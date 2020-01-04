@@ -37,7 +37,7 @@ function initCube(callback) {
         'icon.png','icon.png','icon.png',
         'icon.png','icon.png','icon.png'
     ], function(texture) {
-        var material = new THREE.MeshBasicMaterial({ color: 0x000000, linewidth: 2 });
+        var material = new THREE.MeshBasicMaterial({ color: 0x000000, refractionRatio: 0.1 });
         var geometry = new THREE.CubeGeometry(3, 3, 3);
 
         cube = new THREE.Mesh(geometry, material);
