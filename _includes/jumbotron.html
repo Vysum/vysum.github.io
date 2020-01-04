@@ -5,6 +5,12 @@
     {% else %}
     <b class="font-brand text-brand display-4">{{ site.title }}</b>
     {% endif %}
+    
+    {% if page.description %}
+    <p class="lead">{{ page.description }}</p>
+    {% else %}
+    <p class="lead">{{ site.description }}</p>
+    {% endif %}
 </div>
 <script type="text/javascript">
 var region = document.getElementById('headerRend');
