@@ -1,0 +1,13 @@
+markdown: kramdown
+
+title: Vysum Team
+description: Virtual Experiences, Virtual Designs
+color: 4a9b2e
+favicon: favicon.png
+
+jQuery: http://code.jquery.com/jquery-3.4.1.min.js
+BootstrapCSS: https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css
+BootstrapJS: https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js
+FontAwesome: https://kit.fontawesome.com/37f260952f.js
+HowlerJS: https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.3/howler.min.js
+ThreeJS: https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js
