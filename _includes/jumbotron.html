@@ -69,7 +69,10 @@ function initRenderer() {
 function initCube() {
     var loader = new THREE.CubeTextureLoader();
     loader.setPath('assets/img/');
-    var texture = loader.load(['icon.png']);
+    var texture = loader.load([
+        'icon.png','icon.png','icon.png',
+        'icon.png','icon.png','icon.png'
+    ]);
 
     var material = new THREE.MeshBasicMaterial({ color: 0x000000, envMap: texture });
     var geometry = new THREE.CubeGeometry(3, 3, 3);
