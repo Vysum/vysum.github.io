@@ -1,0 +1,107 @@
+:root {
+    --color-brand-yellow: #94CD24;
+    --color-brand-green: #036A38;
+    --color-brand-main: #4A9B2E;
+    --color-dark: #323232;
+    --color-black: #1c1c1c;
+    --color-light: #f0f0f0;
+    --color-white: #ffffff;
+    --color-danger: #ad0e0e;
+    --color-warning: #e4a700;
+    --color-success: #45a021;
+    --color-info: #4747c2;
+
+    --color-rating-children: #4747c2;
+    --color-rating-general: #45a021;
+    --color-rating-pg: #94CD24;
+    --color-rating-teen: #e4a700;
+    --color-rating-mature: #ad0e0e;
+
+    --font-brand: 'Orbitron';
+}
+
+/* Blue Shadow Removal */
+.form-control:focus, button:focus, 
+input:focus, textarea:focus,
+video:focus, audio:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+/* Link Colors */
+a, a:visited { 
+    color: var(--color-brand-main);
+    text-decoration: none !important;
+    transition: all 0.5s;
+}
+a:hover, a:active {
+    color: var(--color-brand-green);
+}
+
+/* Line Break Correction */
+hr { 
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: rgba(255, 255, 255, 0.1) !important;
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important; 
+}
+
+/* Row CSS Correction */
+.row { margin-left: 0 !important; margin-right: 0 !important; }
+
+/* Fonts */
+.font-brand { font-family: var(--font-brand) !important; }
+
+/* Background Colors */
+.bg-primary { background-color: var(--color-brand-main) !important; }
+.bg-dark { background-color: var(--color-dark) !important; }
+.bg-black { background-color: var(--color-black) !important; }
+.bg-light { background-color: var(--color-light) !important; }
+.bg-white { background-color: var(--color-white) !important; }
+.bg-danger { background-color: var(--color-danger) !important; }
+.bg-warning { background-color: var(--color-warning) !important; }
+.bg-success { background-color: var(--color-success) !important; }
+.bg-brand { background-color: var(--color-brand-main) !important; }
+.bg-gradient { background: linear-gradient(to right, var(--color-brand-green), var(--color-brand-yellow)) !important; }
+
+/* Text Colors */
+.text-primary { color: var(--color-brand-main) !important; }
+.text-dark { color: var(--color-dark) !important; }
+.text-black { color: var(--color-black) !important; }
+.text-light { color: var(--color-light) !important; }
+.text-white { color: var(--color-white) !important; }
+.text-danger { color: var(--color-danger) !important; }
+.text-warning { color: var(--color-warning) !important; }
+.text-success { color: var(--color-success) !important; }
+.text-brand { color: var(--color-brand-main) !important; }
+
+/* Button Colors */
+.btn { color: var(--color-light) !important; border: 0 !important; }
+.btn-primary { background-color: var(--color-brand-main) !important; }
+.btn-dark { background-color: var(--color-dark) !important; }
+.btn-black { background-color: var(--color-black) !important; }
+.btn-light { background-color: var(--color-light) !important; }
+.btn-white { background-color: var(--color-white) !important; }
+.btn-danger { background-color: var(--color-danger) !important; }
+.btn-warning { background-color: var(--color-warning) !important; }
+.btn-success { background-color: var(--color-success) !important; }
+.btn-brand { background-color: var(--color-brand-main) !important; }
+.btn-gradient { background: linear-gradient(to right, var(--color-brand-green), var(--color-brand-yellow)) !important; }
+
+/* Badge Colors */
+.badge-primary { background-color: var(--color-brand-main) !important; }
+.badge-dark { background-color: var(--color-dark) !important; }
+.badge-black { background-color: var(--color-black) !important; }
+.badge-light { background-color: var(--color-light) !important; }
+.badge-white { background-color: var(--color-white) !important; }
+.badge-danger { background-color: var(--color-danger) !important; }
+.badge-warning { background-color: var(--color-warning) !important; }
+.badge-success { background-color: var(--color-success) !important; }
+.badge-brand { background-color: var(--color-brand-main) !important; }
+.badge-gradient { background: linear-gradient(to right, var(--color-brand-green), var(--color-brand-yellow)) !important; }
+
+.badge-rating-general { background-color: var(--color-rating-general) !important; }
+.badge-rating-pg { background-color: var(--color-rating-pg) !important; }
+.badge-rating-children { background-color: var(--color-rating-children) !important; }
+.badge-rating-teen { background-color: var(--color-rating-teen) !important; }
+.badge-rating-mature { background-color: var(--color-rating-mature) !important; }
