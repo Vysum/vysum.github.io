@@ -43,7 +43,6 @@ function initCube(callback) {
 
         cube = new THREE.Mesh(geometry, material);
         scene.add(cube);
-        callback();
     })
 }
 
@@ -57,9 +56,8 @@ function rotateCube() {
 
 function render() {
     requestAnimationFrame(render);
-    rotateCube(function() {
-        renderer.render(scene, camera);
-    });
+    rotateCube();
+    renderer.render(scene, camera);
 }
 
 init();
