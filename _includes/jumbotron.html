@@ -61,12 +61,14 @@ function initCamera() {
 }
 
 function initRenderer() {
-    renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    renderer.setClearColor(0x000000, 0);
     renderer.setSize(300, 300);
 }
 
 function initCube() {
-    cube = new THREE.Mesh(new THREE.CubeGeometry(2, 2, 2), new THREE.MeshNormalMaterial());
+    var geometry = new THREE.CubeGeometry(1, 1, 1);
+    cube = new THREE.Mesh(geometry, new THREE.MeshNormalMaterial());
     scene.add(cube);
 }
 
