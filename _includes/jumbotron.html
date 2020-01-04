@@ -1,4 +1,4 @@
-<div id="header" class="jumbotron bg-black text-light">
+<div id="header" class="jumbotron bg-black text-light text-center">
     <div id="headerRend" style="height: 300px; width: 300px;"></div>
     {% if page.title %}
     <h1 class="font-brand text-primary">{{ page.title }}</h1>
@@ -16,7 +16,7 @@ var camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
 
 // Setting Texture Folder
 var loader = new THREE.CubeTextureLoader();
-loader.setPath('assets/img');
+loader.setPath('assets/img/');
 var texture = loader.load(['icon.png']);
 
 // Rendering
