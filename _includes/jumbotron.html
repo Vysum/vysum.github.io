@@ -32,14 +32,27 @@ function initRenderer() {
 }
 
 function initCube(callback) {
-    var loader = new THREE.CubeTextureLoader().setPath('/assets/img/');
-    loader.load(['icon.png'], function(texture) {
-        var material = new THREE.MeshBasicMaterial({ envMap: texture, refractionRatio: 0.1 });
-        var geometry = new THREE.CubeGeometry(3, 3, 3);
+    var loader = new THREE.TextureLoader();
+    var t0 = loader.load('/assets/img/icon.png');
+    var t1 = loader.load('/assets/img/icon.png');
+    var t2 = loader.load('/assets/img/icon.png');
+    var t3 = loader.load('/assets/img/icon.png');
+    var t4 = loader.load('/assets/img/icon.png');
+    var t5 = loader.load('/assets/img/icon.png');
 
-        cube = new THREE.Mesh(geometry, material);
-        scene.add(cube);
-    })
+    var textures = [
+        new THREE.MeshBasicMaterial({ map: t0 }),
+        new THREE.MeshBasicMaterial({ map: t1 }),
+        new THREE.MeshBasicMaterial({ map: t2 }),
+        new THREE.MeshBasicMaterial({ map: t3 }),
+        new THREE.MeshBasicMaterial({ map: t4 }),
+        new THREE.MeshBasicMaterial({ map: t5 }),
+    ]
+
+    var material = new THREE.MeshFaceMaterial(textures);
+    var geometry = new THREE.CubeGeometry(3, 3, 3);
+    cube = new THREE.Mesh(geometry, material);
+    scene.add(cube);
 }
 
 var SPEED = 0.01;
