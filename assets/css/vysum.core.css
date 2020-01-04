@@ -65,6 +65,13 @@ hr {
 .bg-gradient { background: linear-gradient(to right, var(--color-brand-green), var(--color-brand-yellow)) !important; }
 
 /* Text Colors */
+.text-brand { 
+    background: -webkit-linear-gradient(var(--color-brand-yellow), var(--color-brand-green));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
 .text-primary { color: var(--color-brand-main) !important; }
 .text-dark { color: var(--color-dark) !important; }
 .text-black { color: var(--color-black) !important; }
