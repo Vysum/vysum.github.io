@@ -1,5 +1,5 @@
 <div id="header" class="jumbotron bg-black text-light text-center">
-    <div id="headerRend" style="height: 300px; width: 300px;"></div>
+    <center><div id="headerRend"></div></center>
     {% if page.title %}
     <h1 class="font-brand text-primary">{{ page.title }}</h1>
     {% else %}
@@ -10,7 +10,10 @@
 // First Variables
 var region = document.getElementById('headerRend');
 var scene = new THREE.Scene();
+
 var renderer = new THREE.WebGLRenderer();
+renderer.setSize(300, 300);
+region.appendChild(renderer.domElement);
 
 var camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
 
@@ -35,8 +38,6 @@ var render = function() {
     cube.rotation.z += 0.05;
     renderer.render(scene, camera)
 }
-
-region.appendChild(renderer.domElement);
 
 render();
 </script>
