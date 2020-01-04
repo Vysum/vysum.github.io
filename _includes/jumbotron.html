@@ -9,7 +9,9 @@
 <script type="text/javascript">
 // First Variables
 var region = document.getElementById('headerRend');
+
 var scene = new THREE.Scene();
+scene.background = new THREE.Color('rgba(0, 0, 0, 0)');
 
 var renderer = new THREE.WebGLRenderer();
 renderer.setSize(300, 300);
@@ -32,6 +34,7 @@ scene.add(cube);
 camera.position.z = 5;
 
 var render = function() {
+    console.log('Rendering...')
     requestAnimationFrame(render);
     cube.rotation.x += 0.1;
     cube.rotation.y += 0.1;
