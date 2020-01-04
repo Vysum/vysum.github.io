@@ -62,16 +62,12 @@ function initCamera() {
 
 function initRenderer() {
     renderer = new THREE.WebGLRenderer({ antialias: true });
-    renderer.setSize(WIDTH, HEIGHT);
+    renderer.setSize(300, 300);
 }
 
 function initCube() {
     cube = new THREE.Mesh(new THREE.CubeGeometry(2, 2, 2), new THREE.MeshNormalMaterial());
     scene.add(cube);
-}
-
-function render() {
-    renderer.render(scene, camera);
 }
 
 var SPEED = 0.01;
@@ -87,4 +83,7 @@ function render() {
     rotateCube();
     renderer.render(scene, camera);
 }
+
+init();
+render();
 </script>
