@@ -33,10 +33,7 @@ function initRenderer() {
 
 function initCube(callback) {
     var loader = new THREE.CubeTextureLoader().setPath('/assets/img/');
-    loader.load([
-        'icon.png','icon.png','icon.png',
-        'icon.png','icon.png','icon.png'
-    ], function(texture) {
+    loader.load(['icon.png'], function(texture) {
         var material = new THREE.MeshBasicMaterial({ envMap: texture, refractionRatio: 0.1 });
         var geometry = new THREE.CubeGeometry(3, 3, 3);
 
