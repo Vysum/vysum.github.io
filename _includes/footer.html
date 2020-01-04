@@ -4,42 +4,34 @@
             <span class="text-muted">Copyright &copy; Vysum Team 2020</span>
         </div>
         <div class="col-md-4">
-            <p class="text-brand">Latest Posts</p>
-            <ul style="list-style-type: none;">
-                {% if site.posts %}
-                {% else %}
-                <li>There are no posts yet...</li>
-                {% endif %}
+            <h4 class="text-brand">Latest Posts</h4>
+            {% if site.posts %}
+            {% else %}
+            <p>There are no posts yet...</p>
+            {% endif %}
             </ul>
         </div>
         <div class="col-md-4">
             <p class="text-brand">Navigation</p>
-            <ul style="list-style-type: none;">
-                <li class="footer-nav-link">
-                    <a href="/about">
-                        <i class="fad fa-hexagon"></i>
-                        <span> About Us</span>
-                    </a>
-                </li>
-                <li class="footer-nav-link">
-                    <a href="/projects">
-                        <i class="fad fa-code"></i>
-                        <span> Projects</span>
-                    </a>
-                </li>
-                <li class="footer-nav-link">
-                    <a href="https://vysum.itch.io/">
-                        <i class="fab fa-itch-io"></i>
-                        <span> Vysum on Itch.IO</span>
-                    </a>
-                </li>
-                <li class="footer-nav-link">
-                    <a href="https://discord.gg/unaXJf7">
-                        <i class="fab fa-discord"></i>
-                        <span> Join our Discord</span>
-                    </a>
-                </li>
-            </ul>
+            <a href="/about">
+                <i class="fad fa-hexagon"></i>
+                <span> About Us</span>
+            </a>
+            <br>
+            <a href="/projects">
+                <i class="fad fa-code"></i>
+                <span> Projects</span>
+            </a>
+            <br>
+            <a href="https://vysum.itch.io/">
+                <i class="fab fa-itch-io"></i>
+                <span> Vysum on Itch.IO</span>
+            </a>
+            <br>
+            <a href="https://discord.gg/unaXJf7">
+                <i class="fab fa-discord"></i>
+                <span> Join our Discord</span>
+            </a>
         </div>
     </div>
 </div>
