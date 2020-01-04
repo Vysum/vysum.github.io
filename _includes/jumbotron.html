@@ -1,47 +1,12 @@
 <div id="header" class="jumbotron bg-black text-light text-center">
     <center><div id="headerRend"></div></center>
     {% if page.title %}
-    <h1 class="font-brand text-primary">{{ page.title }}</h1>
+    <h1 class="font-brand text-brand">{{ page.title }}</h1>
     {% else %}
-    <h1 class="font-brand text-primary">{{ site.title }}</h1>
+    <h1 class="font-brand text-brand">{{ site.title }}</h1>
     {% endif %}
 </div>
 <script type="text/javascript">
-// First Variables
-//var region = document.getElementById('headerRend');
-//
-//var scene = new THREE.Scene();
-//scene.background = new THREE.Color(0x00000000);
-//
-//var renderer = new THREE.WebGLRenderer();
-//renderer.setSize(300, 300);
-//region.appendChild(renderer.domElement);
-//
-//var camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
-//
-//// Setting Texture Folder
-//var loader = new THREE.CubeTextureLoader();
-//loader.setPath('assets/img/');
-//var texture = loader.load(['icon.png']);
-//
-//// Rendering
-//var geometry = new THREE.BoxGeometry(1, 1, 1);
-//var material = new THREE.MeshBasicMaterial({ color: 0x000000, envMap: texture });
-//var cube = new THREE.Mesh(geometry, material);
-//
-//scene.add(cube);
-//
-//camera.position.z = 5;
-//
-//var render = function() {
-//    requestAnimationFrame(render);
-//    cube.rotation.x += 0.1;
-//    cube.rotation.y += 0.1;
-//    cube.rotation.z += 0.05;
-//    renderer.render(scene, camera)
-//}
-//
-//render();
 var region = document.getElementById('headerRend');
 var scene, camera, renderer, cube;
 
