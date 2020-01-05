@@ -90,6 +90,12 @@ var languages = [
         summary: 'Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference.'
     },
     {
+        name: 'Lua',
+        color: '#000080',
+        link: 'https://www.lua.org',
+        summary: 'Lua is a powerful, efficient, lightweight, embeddable scripting language.'
+    },
+    {
         name: 'Objective-C',
         color: '#ff0c5a',
         link: 'https://en.wikipedia.org/wiki/Objective-C',
