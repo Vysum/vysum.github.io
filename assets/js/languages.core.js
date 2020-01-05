@@ -18,6 +18,12 @@ var languages = [
         summary: 'C++ is a general-purpose programming language created as an extension of the C programming language.'
     },
     {
+        name: 'Clojure',
+        color: '#db5855',
+        link: 'https://clojure.org',
+        sumamry: 'Clojure is a robust, practical, and fast programming language with a set of useful features that together form a simple, coherent, and powerful tool.'
+    },
+    {
         name: 'CoffeeScript',
         color: '#244776',
         link: 'https://coffeescript.org',
