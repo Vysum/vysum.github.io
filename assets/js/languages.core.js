@@ -21,7 +21,7 @@ var languages = [
         name: 'Clojure',
         color: '#db5855',
         link: 'https://clojure.org',
-        sumamry: 'Clojure is a robust, practical, and fast programming language with a set of useful features that together form a simple, coherent, and powerful tool.'
+        summary: 'Clojure is a robust, practical, and fast programming language with a set of useful features that together form a simple, coherent, and powerful tool.'
     },
     {
         name: 'CoffeeScript',
