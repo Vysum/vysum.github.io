@@ -120,6 +120,12 @@ var languages = [
         summary: 'Lua is a powerful, efficient, lightweight, embeddable scripting language.'
     },
     {
+        name: 'Nim',
+        color: '#37775b',
+        link: 'https://nim-lang.org',
+        summary: 'Nim is a statically typed compiled systems programming language.'
+    },
+    {
         name: 'OCaml',
         color: '#3be133',
         link: 'https://ocaml.org',
