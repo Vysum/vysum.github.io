@@ -30,6 +30,18 @@ var languages = [
         summary: 'CSS is a language that describes the style of an HTML document.'
     },
     {
+        name: 'Elm',
+        color: '#60b5cc',
+        link: 'https://elm-lang.org',
+        summary: 'A delightful language for reliable webapps.'
+    },
+    {
+        name: 'Go',
+        color: '#00add8',
+        link: 'https://golang.org',
+        summary: 'Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.'
+    },
+    {
         name: 'HTML',
         color: '#e34c26',
         link: 'https://www.w3schools.com/html/',
