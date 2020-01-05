@@ -42,6 +42,12 @@ var languages = [
         summary: 'A delightful language for reliable webapps.'
     },
     {
+        name: 'FreeMarker',
+        color: '#0050b2',
+        link: 'https://freemarker.apache.org',
+        summary: 'Java template engine; generates HTML web pages, e-mails, configuration files, source code, etc. from template files and the data your application provides.'
+    },
+    {
         name: 'Go',
         color: '#00add8',
         link: 'https://golang.org',
@@ -94,6 +100,12 @@ var languages = [
         color: '#3c5caa',
         link: 'https://racket-lang.org',
         summary: 'Racket is a general-purpose programming language as well as the world\'s first ecosystem for language-oriented programming.'
+    },
+    {
+        name: 'Roff',
+        color: '#ecdebe',
+        link: 'http://man7.org/linux/man-pages/man7/roff.7.html',
+        summary: 'Roff is the general name for a set of text formatting programs, known under names like troff, nroff, ditroff, groff, etc.'
     },
     {
         name: 'Ruby',
