@@ -60,6 +60,12 @@ var languages = [
         summary: 'Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.'
     },
     {
+        name: 'Gosu',
+        color: '#82937f',
+        link: 'https://gosu-lang.github.io',
+        summary: 'Gosu is a pragmatic language for the Java Virtual Machine.'
+    },
+    {
         name: 'HTML',
         color: '#e34c26',
         link: 'https://www.w3schools.com/html/',
