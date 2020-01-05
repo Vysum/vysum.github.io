@@ -2,7 +2,7 @@
 layout: general
 title: About Us
 description: What is Vysum?
-icon: fa-hexagon
+icon: hexagon
 ---
 **Vysum Team** started in late 2019 as a software company after several failed attempts at
 creating their dreams. After spending time away, studying and networking with new members of
