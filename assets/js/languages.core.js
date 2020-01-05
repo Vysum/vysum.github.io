@@ -60,6 +60,12 @@ var languages = [
         summary: 'Python is an interpreted, high-level, general-purpose programming language.'
     },
     {
+        name: 'Ruby',
+        color: '#701516',
+        link: 'https://www.ruby-lang.org/en/',
+        summary: 'Ruby is a dynamic, open source programming language with a focus on simplicity and productivity.'
+    },
+    {
         name: 'Rust',
         color: '#dea584',
         link: 'https://www.rust-lang.org',
