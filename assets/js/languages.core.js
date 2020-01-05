@@ -72,6 +72,12 @@ var languages = [
         summary: 'Gosu is a pragmatic language for the Java Virtual Machine.'
     },
     {
+        name: 'Hack',
+        color: '#878787',
+        link: 'https://hacklang.org',
+        summary: 'Hack reconciles the fast development cycle of a dynamically typed language with the discipline provided by static typing.'
+    },
+    {
         name: 'Haskell',
         color: '#5e5086',
         link: 'https://www.haskell.org',
@@ -136,6 +142,12 @@ var languages = [
         color: '#ff0c5a',
         link: 'https://en.wikipedia.org/wiki/Objective-C',
         summary: 'Objective-C is a thin layer atop C, and is a "strict superset" of C.'
+    },
+    {
+        name: 'Pascal',
+        color: '#e3f171',
+        link: 'https://en.wikipedia.org/wiki/Pascal_(programming_language)',
+        summary: 'Pascal is an imperative and procedural programming language.'
     },
     {
         name: 'PHP',
