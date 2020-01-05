@@ -18,6 +18,12 @@ var languages = [
         summary: 'CSS is a language that describes the style of an HTML document.'
     },
     {
+        name: 'HTML',
+        color: '#e34c26',
+        link: 'https://www.w3schools.com/html/',
+        summary: 'HTML is the standard markup language for documents designed to be displayed in a web browser.'
+    },
+    {
         name: 'JavaScript',
         color: '#f1e05a',
         link: 'https://www.javascript.com',
