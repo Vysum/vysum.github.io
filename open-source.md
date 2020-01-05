@@ -9,6 +9,7 @@ icon: chart-network
 * [Express](https://expressjs.com) - Fast, unopinionated, minimalist web framework for Node.js.
 * [Font Awesome](https://fontawesome.com) - Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit.
 * [howler.js](https://howlerjs.com) - Audio library for the modern web.
+* [Jekyll](https://jekyllrb.com) - Transform your plain text into static websites and blogs.
 * [jQuery](https://jquery.com) - The Write Less, Do More, JavaScript Library.
 * [Node.js](https://nodejs.org/en/) - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 * [Passport.js](http://www.passportjs.org) - Simple, unobtrusive authentication for Node.js.
