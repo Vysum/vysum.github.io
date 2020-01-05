@@ -12,6 +12,12 @@ var languages = [
         summary: 'C++ is a general-purpose programming language created as an extension of the C programming language.'
     },
     {
+        name: 'Crystal',
+        color: '#000100',
+        link: 'https://crystal-lang.org',
+        summary: 'Crystal is a general-purpose, object-oriented programming language.'
+    },
+    {
         name: 'CSS',
         color: '#563d7c',
         link: 'https://www.w3schools.com/css/',
@@ -58,6 +64,12 @@ var languages = [
         color: '#dea584',
         link: 'https://www.rust-lang.org',
         summary: 'A language empowering everyone to build reliable and efficient software.'
+    },
+    {
+        name: 'Scala',
+        color: '#c22d40',
+        link: 'https://www.scala-lang.org',
+        summary: 'Scala combines object-oriented and functional programming in one concise, high-level language.'
     },
     {
         name: 'Swift',
