@@ -11,10 +11,10 @@ icon: book-open
 languages.forEach(function(lang, i) {
     let id = lang.name.toLowerCase().replace(' ', '-');
     $('#languages').append(`
-    <div id="${id}" class="card text-center bg-black">
+    <div id="${id}" class="card text-center bg-dark">
         <div class="card-header">
             <h3>
-                <i class="fas fa-code" style="color: ${lang.color}"></i>
+                <i class="fas fa-circle fa-sm" style="color: ${lang.color}"></i>
                 <span> ${lang.name}</span>
             </h3>
         </div>
@@ -23,6 +23,7 @@ languages.forEach(function(lang, i) {
             <a href="${lang.link}" target="_blank">Read More</a>
         </div>
     </div>
+    <br>
     `);
 })
 </script>
