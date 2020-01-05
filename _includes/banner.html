@@ -1,0 +1,14 @@
+<div id="header" class="jumbotron bg-fading text-light text-center">
+    <i class="{{ page.icon }} brand-icon"></i>
+    {% if page.title %}
+    <b class="font-brand text-brand display-4">{{ page.title }}</b>
+    {% else %}
+    <b class="font-brand text-brand display-4">{{ site.title }}</b>
+    {% endif %}
+    
+    {% if page.description %}
+    <p class="lead">{{ page.description }}</p>
+    {% else %}
+    <p class="lead">{{ site.description }}</p>
+    {% endif %}
+</div>
