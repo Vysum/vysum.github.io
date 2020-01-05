@@ -1,5 +1,11 @@
 var languages = [
     {
+        name: 'C',
+        color: '#555555',
+        link: 'https://en.wikipedia.org/wiki/C_(programming_language)',
+        summary: 'C is a general-purpose, procedural computer programming language.'
+    },
+    {
         name: 'C#',
         color: '#178600',
         link: 'https://docs.microsoft.com/en-us/dotnet/csharp/',
@@ -84,6 +90,12 @@ var languages = [
         summary: 'Python is an interpreted, high-level, general-purpose programming language.'
     },
     {
+        name: 'Racket',
+        color: '#3c5caa',
+        link: 'https://racket-lang.org',
+        summary: 'Racket is a general-purpose programming language as well as the world\'s first ecosystem for language-oriented programming.'
+    },
+    {
         name: 'Ruby',
         color: '#701516',
         link: 'https://www.ruby-lang.org/en/',
@@ -106,6 +118,12 @@ var languages = [
         color: '#ffac45',
         link: 'https://developer.apple.com/swift/',
         summary: 'Swift is a powerful and intuitive programming language for macOS, iOS, watchOS, tvOS and beyond.'
+    },
+    {
+        name: 'TeX',
+        color: '#3d6117',
+        link: 'https://www.tug.org/begin.html',
+        summary: 'TeX is a typesetting language.'
     },
     {
         name: 'TypeScript',
