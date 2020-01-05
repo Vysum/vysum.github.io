@@ -30,6 +30,12 @@ var languages = [
         summary: 'HTML is the standard markup language for documents designed to be displayed in a web browser.'
     },
     {
+        name: 'Java',
+        color: '#b07219',
+        link: 'https://en.wikipedia.org/wiki/Java_(programming_language)',
+        summary: 'Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible.'
+    },
+    {
         name: 'JavaScript',
         color: '#f1e05a',
         link: 'https://www.javascript.com',
@@ -88,5 +94,11 @@ var languages = [
         color: '#2b7489',
         link: 'https://www.typescriptlang.org',
         summary: 'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
+    },
+    {
+        name: 'V',
+        color: '#5d87bd',
+        link: 'https://vlang.io',
+        summary: 'Simple, fast, safe, compiled language for developing maintainable software.'
     }
 ]
