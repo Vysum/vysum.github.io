@@ -66,6 +66,12 @@ var languages = [
         summary: 'Gosu is a pragmatic language for the Java Virtual Machine.'
     },
     {
+        name: 'Haskell',
+        color: '#5e5086',
+        link: 'https://www.haskell.org',
+        summary: 'Haskell is a statically typed, purely functional programming language with type inference and lazy evaluation.'
+    },
+    {
         name: 'HTML',
         color: '#e34c26',
         link: 'https://www.w3schools.com/html/',
@@ -82,6 +88,12 @@ var languages = [
         color: '#f1e05a',
         link: 'https://www.javascript.com',
         summary: 'JavaScript is a high-level, just-in-time compiled, multi-paradigm programming language that conforms to the ECMAScript specification.'
+    },
+    {
+        name: 'Julia',
+        color: '#a270ba',
+        link: 'https://julialang.org',
+        summary: 'Julia is a high-level, high-performance, dynamic programming language.'
     },
     {
         name: 'Kotlin',
