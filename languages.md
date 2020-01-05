@@ -13,10 +13,10 @@ languages.forEach(function(lang, i) {
     $('#languages').append(`
     <div id="${id}" class="card text-center bg-dark">
         <div class="card-header">
-            <h3>
+            <h4>
                 <i class="fas fa-circle fa-sm" style="color: ${lang.color}"></i>
                 <span> ${lang.name}</span>
-            </h3>
+            </h4>
         </div>
         <div class="card-body">
             <p>${lang.summary}</p>
