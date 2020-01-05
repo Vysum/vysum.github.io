@@ -102,6 +102,12 @@ var languages = [
         summary: 'Julia is a high-level, high-performance, dynamic programming language.'
     },
     {
+        name: 'Jupyter Notebook',
+        color: '#da5b0b',
+        link: 'https://jupyter.org',
+        summary: 'Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text.'
+    },
+    {
         name: 'Kotlin',
         color: '#f18e33',
         link: 'https://kotlinlang.org',
