@@ -48,6 +48,12 @@ var languages = [
         summary: 'A delightful language for reliable webapps.'
     },
     {
+        name: 'Emacs Lisp',
+        color: '#c065db',
+        link: 'https://www.gnu.org/software/emacs/manual/html_node/elisp/',
+        summary: 'Emacs Lisp is a dialect of the Lisp programming language used as a scripting language by Emacs.'
+    },
+    {
         name: 'FreeMarker',
         color: '#0050b2',
         link: 'https://freemarker.apache.org',
@@ -106,6 +112,12 @@ var languages = [
         color: '#000080',
         link: 'https://www.lua.org',
         summary: 'Lua is a powerful, efficient, lightweight, embeddable scripting language.'
+    },
+    {
+        name: 'OCaml',
+        color: '#3be133',
+        link: 'https://ocaml.org',
+        summary: 'OCaml is an industrial strength programming language supporting functional, imperative and object-oriented styles.'
     },
     {
         name: 'Objective-C',
