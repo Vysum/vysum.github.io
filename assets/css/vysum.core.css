@@ -52,6 +52,12 @@ hr {
 /* Fonts */
 .font-brand { font-family: var(--font-brand) !important; }
 
+/* Icon Brand */
+.brand-icon {
+    --fa-color-primary: var(--color-brand-yellow);
+    --fa-color-secondary: var(--color-brand-green);
+}
+
 /* Background Colors */
 .bg-primary { background-color: var(--color-brand-main) !important; }
 .bg-dark { background-color: var(--color-dark) !important; }
