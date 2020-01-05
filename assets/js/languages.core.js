@@ -24,6 +24,12 @@ var languages = [
         summary: 'JavaScript is a high-level, just-in-time compiled, multi-paradigm programming language that conforms to the ECMAScript specification.'
     },
     {
+        name: 'Kotlin',
+        color: '#f18e33',
+        link: 'https://kotlinlang.org',
+        summary: 'Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference.'
+    },
+    {
         name: 'Objective-C',
         color: '#ff0c5a',
         link: 'https://en.wikipedia.org/wiki/Objective-C',
