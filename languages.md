@@ -1,6 +1,6 @@
 ---
 layout: general
-title: Language Rosetta
+title: Git Languages
 description: The guide to most known code languages!
 icon: book-open
 ---
