@@ -12,6 +12,12 @@ var languages = [
         summary: 'C++ is a general-purpose programming language created as an extension of the C programming language.'
     },
     {
+        name: 'CoffeeScript',
+        color: '#244776',
+        link: 'https://coffeescript.org',
+        summary: 'CoffeeScript is a little language that compiles into JavaScript.'
+    },
+    {
         name: 'Crystal',
         color: '#000100',
         link: 'https://crystal-lang.org',
