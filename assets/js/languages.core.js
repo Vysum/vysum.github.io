@@ -42,6 +42,12 @@ var languages = [
         summary: 'Objective-C is a thin layer atop C, and is a "strict superset" of C.'
     },
     {
+        name: 'PHP',
+        color: '#4f5d95',
+        link: 'https://www.php.net',
+        summary: 'PHP is a popular general-purpose scripting language that is especially suited to web development.'
+    },
+    {
         name: 'Python',
         color: '#3572a5',
         link: 'https://www.python.org',
