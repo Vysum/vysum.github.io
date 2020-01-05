@@ -1,7 +1,7 @@
 ---
 layout: general
 title: Open Source
-descriptions: Companies and Products that make Vysum Possible!
+description: Companies and Products that make Vysum Possible!
 icon: chart-network
 ---
 * [Bootstrap](https://getbootstrap.com) - Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
